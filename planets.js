@@ -103,3 +103,8 @@ function openNav() {
     });
   });
   
+  document.querySelector('.download-button').addEventListener('click', function (e) {
+    e.preventDefault();
+    alert("App download will be available soon! :)");
+  });
+  
