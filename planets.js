@@ -8,7 +8,6 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
   }
   
-  // ========== Sound Setup ==========
   const clickSound = new Audio("sounds/click.mp3"); 
   
   const planetInfo = {
@@ -46,7 +45,6 @@ function openNav() {
     }
   };
   
-  // ========== Update Display ==========
   function updatePlanetDisplay(planetName) {
     const infoBox = document.getElementById("Information");
     const overlay = document.getElementById("popupOverlay");
@@ -65,12 +63,10 @@ function openNav() {
       overlay.style.display = 'block';
     }
   
-    // Play sound
     clickSound.currentTime = 0;
     clickSound.play();
   }
   
-  // Close popup when close button or overlay is clicked
   document.body.addEventListener('click', function(e) {
     const infoBox = document.getElementById("Information");
     const overlay = document.getElementById("popupOverlay");
@@ -92,7 +88,6 @@ function openNav() {
     link.addEventListener('click', function () {
       const planet = this.getAttribute('data-planet');
   
-      // Check corresponding radio button
       const radio = document.querySelector(`input[type="radio"][value="${planet}"]`);
       if (radio) {
         radio.checked = true;
