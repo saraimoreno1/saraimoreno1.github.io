@@ -1,66 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>SolarScope</title>
-    <link rel="stylesheet" href="planets.css"> 
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>SolarScope</title>
+  <link rel="stylesheet" href="planets.css"> 
+</head>
 
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="planets.html" id="home">Home</a>
-      <a href="#" data-planet="Earth">Earth</a>
-      <a href="#" data-planet="Saturn">Saturn</a>
-      <a href="#" data-planet="Neptune">Neptune</a>
-      <a href="#" data-planet="Jupiter">Jupiter</a>
-      <a href="#" data-planet="Mercury">Mercury</a>
-      <a href="#" data-planet="Venus">Venus</a>
-      <a href="#" data-planet="Uranus">Uranus</a>
-      <a href="#" data-planet="Mars">Mars</a>
-    </div>
+<body>
 
-    <!-- Main Content -->
-    <div id="main"> 
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Planet Menu</span>
+  <!-- Sidebar -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" data-planet="Earth">Earth</a>
+    <a href="#" data-planet="Saturn">Saturn</a>
+    <a href="#" data-planet="Neptune">Neptune</a>
+    <a href="#" data-planet="Jupiter">Jupiter</a>
+    <a href="#" data-planet="Mercury">Mercury</a>
+    <a href="#" data-planet="Venus">Venus</a>
+    <a href="#" data-planet="Uranus">Uranus</a>
+    <a href="#" data-planet="Mars">Mars</a>
+  </div>
 
-      <h1>The Planets in Our Solar System</h1>
+  <div id="main"> 
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Planet Menu</span>
 
-      <h2>Pick a Planet:</h2>
-      <form id="planetForm">
-        <div class="planet-options">
-          <input type="radio" name="planet" id="Earth" value="Earth"> Earth<br><br>
-          <input type="radio" name="planet" id="Saturn" value="Saturn"> Saturn<br><br>
-          <input type="radio" name="planet" id="Neptune" value="Neptune"> Neptune<br><br>
-          <input type="radio" name="planet" id="Jupiter" value="Jupiter"> Jupiter<br><br>
-          <input type="radio" name="planet" id="Mercury" value="Mercury"> Mercury<br><br>
-          <input type="radio" name="planet" id="Venus" value="Venus"> Venus<br><br>
-          <input type="radio" name="planet" id="Uranus" value="Uranus"> Uranus<br><br>
-          <input type="radio" name="planet" id="Mars" value="Mars"> Mars<br><br>
-        </div>
-      </form>
-      
-    </div>
+    <h1>The Planets in Our Solar System</h1>
 
-    <div id="radioForm">
-      <div id="EarthSection"></div>
-      <div id="SaturnSection"></div>
-      <div id="NeptuneSection"></div>
-      <div id="JupiterSection"></div>
-      <div id="MercurySection"></div>
-      <div id="VenusSection"></div>
-      <div id="UranusSection"></div>
-      <div id="MarsSection"></div>
-    </div>
+    <h2>Pick a Planet:</h2>
+    <form id="planetForm">
+      <div class="planet-options">
+        <input type="radio" name="planet" id="Earth" value="Earth"> Earth<br><br>
+        <input type="radio" name="planet" id="Saturn" value="Saturn"> Saturn<br><br>
+        <input type="radio" name="planet" id="Neptune" value="Neptune"> Neptune<br><br>
+        <input type="radio" name="planet" id="Jupiter" value="Jupiter"> Jupiter<br><br>
+        <input type="radio" name="planet" id="Mercury" value="Mercury"> Mercury<br><br>
+        <input type="radio" name="planet" id="Venus" value="Venus"> Venus<br><br>
+        <input type="radio" name="planet" id="Uranus" value="Uranus"> Uranus<br><br>
+        <input type="radio" name="planet" id="Mars" value="Mars"> Mars<br><br>
+      </div>
+    </form>
 
     <div id="Information"></div>
-    <div id="Solar System"></div>
+    
+    <div id="Gallery"></div>
+  </div>
 
-    <script src="planets.js"></script>
+  <div id="radioForm">
+    <div id="EarthSection"></div>
+    <div id="SaturnSection"></div>
+    <div id="NeptuneSection"></div>
+    <div id="JupiterSection"></div>
+    <div id="MercurySection"></div>
+    <div id="VenusSection"></div>
+    <div id="UranusSection"></div>
+    <div id="MarsSection"></div>
+  </div>
 
-    <audio id="clickSound" src="sounds/click.mp3" preload="auto"></audio>
-    <button id="playSound">Play Sound</button>
+  <audio id="clickSound" src="sounds/click.mp3" preload="auto"></audio>
+  <script src="planets.js"></script>
 
-
-  </body>
+</body>
 </html>
