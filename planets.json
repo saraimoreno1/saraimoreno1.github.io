@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Mercury",
+        "text": "Mercury is the closest planet to the Sun and the smallest in our solar system."
+       
+    },
+    {
+        "title": "Venus",
+        "text": "Venus is the second planet from the Sun and has a thick, toxic atmosphere."
+        
+    },
+    {
+        "title": "Earth",
+        "text": "Earth is the third planet from the Sun and the only known planet to support life."
+        
+    },
+    {
+        "title": "Mars",
+        "text": "Mars is the fourth planet and is known as the Red Planet due to its reddish appearance."
+       
+    },
+    {
+        "title": "Jupiter",
+        "text": "Jupiter is the largest planet in our solar system and has a giant red storm."
+       
+    },
+    {
+        "title": "Saturn",
+        "text": "Saturn is famous for its beautiful ring system and is the sixth planet from the Sun."
+        
+    },
+    {
+        "title": "Uranus",
+        "text": "Uranus is an ice giant with a bluish color due to methane in its atmosphere."
+        
+    },
+    {
+        "title": "Neptune",
+        "text": "Neptune is the farthest planet from the Sun and has strong winds and storms."
+       
+    }
+]

@@ -1,0 +1,111 @@
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2FsYXh5fGVufDB8fDB8fHww");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+
+}
+
+/* Style headings */
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+form input[type="radio"] {
+    margin: 35px 0;
+
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 16px 32px;
+  }
+
+/* Style the information display area */
+#Information {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent box */
+    border-radius: 8px;
+}
+
+/* Optional: style paragraphs inside the info box */
+#Information p {
+    margin-bottom: 10px;
+}
+
+#Gallery {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  #Gallery img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid white;
+  }
+  
+  /* Sidebar */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #928d53;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 80px;
+}
+
+.sidenav a {
+  padding: 10px 10px 10px 32px;
+  display: block;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+}
+.planet-options input[type="radio"] {
+    transform: scale(1.5); /* Makes the radio button itself a bit larger */
+    margin-right: 10px;
+  }
+  
+  .planet-options {
+    font-size: 35px; /* Increases font size of the planet names */
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  #planetForm {
+    text-align: center;
+  }
+  
